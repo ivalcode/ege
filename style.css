@@ -1,0 +1,16 @@
+:root {
+  --fon: #3914AF;
+  --accent: #FF0000;
+  --text-fon: #FFE773;
+  --text: black;
+  --success: #008500;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: var(--accent)
+}
