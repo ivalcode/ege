@@ -166,7 +166,7 @@ let timerFillQuestions = setInterval(() => {
         rez.textContent = 'Верно! ' + response
         rez.className = 'success'
         RezQuestions.js.var.score++
-        scoreRez.innerHTML = RezQuestions.js.var.score + '/' + RezQuestions.js.var.countQ
+        scoreRez.innerHTML = RezQuestions.js.var.score + ' / ' + RezQuestions.js.var.countQ
       } else {
         rez.textContent = 'Ошибка! Вы ответили: ' + response
         rez.className = 'error'

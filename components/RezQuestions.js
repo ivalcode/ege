@@ -6,7 +6,7 @@ RezQuestions = {
       right: 0,
       'background-color': 'var(--fon)',
       color: 'var(--text-fon)',
-      width: '150px',
+      width: '160px',
       height: '50px',
       display: 'flex',
       'justify-content': 'center',
@@ -14,7 +14,7 @@ RezQuestions = {
     }
   },
   html: `<div class="rez">
-          Ответы: <span>0 / 5</span>
+          <b>Ответы</b>:&nbsp;<span>0 / 5</span>
         </div>
          `,
   js: {
