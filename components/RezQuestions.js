@@ -17,5 +17,10 @@ RezQuestions = {
           Ответы: <span>0 / 5</span>
         </div>
          `,
-  js: {}
+  js: {
+    var: {
+      score: 0,
+      countQ: 5
+    }
+  }
 }
