@@ -28,7 +28,7 @@ Header = {
   html: /*html*/ `
     <header>
       <p class="logo">ЕГЭ</p>
-      <img src="logo.svg" alt="">
+      <img src="logo.svg" alt="" width="100%" height="100%">
       <nav>
         <ul>
           <li>тема 1.1</li>
