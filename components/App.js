@@ -9,7 +9,7 @@ App = {
       color: var(--text);
       font-size: 1.5rem;
     }`,
-  html: `<Header />
+  html: /*html*/ `<Header />
         <Main />
          `,
   js: {}
