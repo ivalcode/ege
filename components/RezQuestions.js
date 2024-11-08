@@ -14,7 +14,7 @@ RezQuestions = {
     }
   `,
   html: /*html*/ `<div class="rez">
-          <b>Ответы</b>:&nbsp;<span>0 / 5</span>
+          <b>Верно:</b>&nbsp;<span>0 / 5</span>
         </div>
          `,
   js: {

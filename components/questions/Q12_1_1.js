@@ -13,7 +13,7 @@ Q12_1_1 = {
       color: var(--success);
     }
 
-    .quest>li: {
+    .quest>li {
       margin-bottom: 4rem;
     }
 
@@ -27,10 +27,14 @@ Q12_1_1 = {
       height: 30px;
     }
 
-    .quest button: {
+    .quest button {
       height: 36px;
       background-color: var(--fon);
       color: white;
+    }
+
+    .quest hr {
+      border: 1px solid var(--fon);
     }
   `,
   html: /*html*/`
