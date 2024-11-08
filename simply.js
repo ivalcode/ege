@@ -132,20 +132,8 @@ let globalStyles = '';
  */
 function applyStyles(component) {
   if (!component.css) return; // Проверка на наличие стилей
-  let styles = component.css;
 
-  // Генерация CSS-кода из объекта стилей
-  let cssCode = '';
-  for (let selector in styles) {
-    cssCode += `${selector} { `;
-    for (let property in styles[selector]) {
-      cssCode += `${property}: ${styles[selector][property]}; `;
-    }
-    cssCode += `} `;
-  }
-
-  // Добавление стилей компонента в глобальный объект стилей
-  globalStyles += cssCode;
+  globalStyles += component.css
 }
 
 /**

@@ -1,10 +1,10 @@
 Main = {
-  css: {
-    main: {
-      flex: 1,
-      padding: '20px',
+  css: /*css*/ `
+    main {
+      flex: 1;
+      padding: 20px;
     }
-  },
+  `,
   html: /*html*/ `
   <main>
     <h1>Основы программирвоания</h1>
