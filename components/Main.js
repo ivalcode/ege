@@ -126,6 +126,8 @@ function fillQuestion() {
  *
  * @param {object} quest Элемент вопроса
  * @param {number} value Ответ пользователя
+ *
+ * @return boolean Верный ли ответ
  */
 function valQ(quest, value) {
   let rez = document.createElement('p');
