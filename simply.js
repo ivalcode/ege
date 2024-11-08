@@ -47,10 +47,6 @@ async function renderComponent(component) {
     }
   }
 
-  // Добавление уникального ID
-  const componentId = 'simply-component-' + Math.random().toString(36).substring(2, 15);
-  template = template.replace('<div', `<div id="${componentId}"`);
-
   // Обработка дочерних компонентов
   const componentRegex = /<([^>]+)\/>/g;
   const componentMatches = template.match(componentRegex);
