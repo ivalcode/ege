@@ -1,4 +1,4 @@
-App = {
+let App = {
   css: /*css*/`
     #app {
       margin: 0;
@@ -14,3 +14,5 @@ App = {
          `,
   js: {}
 }
+
+export default App

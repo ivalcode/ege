@@ -1,4 +1,4 @@
-RezQuestions = {
+let RezQuestions = {
   css: /*css*/ `
     .rez {
       position: fixed;
@@ -24,3 +24,5 @@ RezQuestions = {
     }
   }
 }
+
+export default RezQuestions

@@ -1,4 +1,4 @@
-Header = {
+let Header = {
   css: /*css*/`
     header {
       display: flex;
@@ -38,3 +38,5 @@ Header = {
     `,
   js: {}
 }
+
+export default Header
