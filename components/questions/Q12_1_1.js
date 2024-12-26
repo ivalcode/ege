@@ -111,9 +111,9 @@ let Q12_1_1 = {
         }
       },
     },
-    event: {
-      click: ['.quest__checkBtn', 'checkResponse'],
-    },
+    event: [
+        {type: 'click', selector: '.quest__checkBtn', handler: 'checkResponse'}
+      ],
   },
 };
 
