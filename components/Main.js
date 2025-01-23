@@ -1,3 +1,5 @@
+import {changeInnerP} from './questions/guestions.js'
+
 let Main = {
   css: /*css*/ `
     main {
@@ -41,7 +43,7 @@ let Main = {
        */
       fillQuestion() {
         //q1
-        components.Q12_1_1.js.func.changeInnerP(
+        changeInnerP(
           document.querySelector('#q1>p:nth-child(2)'),
           /*html*/ `
           НАЧАЛО<br>&nbsp;ПОКА нашлось (2222) ИЛИ нашлось (7777) <br>
@@ -54,14 +56,14 @@ let Main = {
             КОНЕЦ
       `
         );
-        components.Q12_1_1.js.func.changeInnerP(
+        changeInnerP(
           document.querySelector('#q1>p:nth-child(3)'),
           /*html*/ `
           Определите строку, которая получится после применения этой программы к входной строке, содержащей 47 цифр «7». В ответе укажите только полученную строку.`
         );
 
         //q2
-        components.Q12_1_1.js.func.changeInnerP(
+        changeInnerP(
           document.querySelector('#q2>p:nth-child(2)'),
           /*html*/ `
           НАЧАЛО<br>
@@ -79,14 +81,14 @@ let Main = {
             КОНЕЦ<br>
         `
         );
-        components.Q12_1_1.js.func.changeInnerP(
+        changeInnerP(
           document.querySelector('#q2>p:nth-child(3)'),
           /*html*/ `
           На вход приведённой выше программе поступает строка, содержащая n цифр 5. Определите наименьшее значение n, большее 100 и кратное 9, при котором в результате работы алгоритма получится строка с максимальным числовым значением.`
         );
 
         //q3
-        components.Q12_1_1.js.func.changeInnerP(
+        changeInnerP(
           document.querySelector('#q3>p:nth-child(2)'),
           /*html*/ `
           НАЧАЛО<br>
@@ -104,7 +106,7 @@ let Main = {
               КОНЕЦ
       `
         );
-        components.Q12_1_1.js.func.changeInnerP(
+        changeInnerP(
           document.querySelector('#q3>p:nth-child(3)'),
           /*html*/ `
           На вход приведённой выше программы поступает строка из 120 цифр, содержащая по 40 цифр 4, 7 и 9, расположенных в произвольном порядке.<br><br>
@@ -115,7 +117,7 @@ let Main = {
         );
 
         //q4
-        components.Q12_1_1.js.func.changeInnerP(
+        changeInnerP(
           document.querySelector('#q4>p:nth-child(2)'),
           /*html*/ `
           НАЧАЛО<br>
@@ -133,7 +135,7 @@ let Main = {
             КОНЕЦ
       `
         );
-        components.Q12_1_1.js.func.changeInnerP(
+        changeInnerP(
           document.querySelector('#q4>p:nth-child(3)'),
           /*html*/ `
           На вход приведённой выше программе поступает строка, начинающаяся с цифры «5», а затем содержащая n цифр «2» (3 < n < 10 000).<br><br>
@@ -142,7 +144,7 @@ let Main = {
         );
 
         //q5
-        components.Q12_1_1.js.func.changeInnerP(
+        changeInnerP(
           document.querySelector('#q5>p:nth-child(2)'),
           /*html*/ `
           НАЧАЛО<br>
@@ -155,7 +157,7 @@ let Main = {
             КОНЕЦ
       `
         );
-        components.Q12_1_1.js.func.changeInnerP(
+        changeInnerP(
           document.querySelector('#q5>p:nth-child(3)'),
           /*html*/ `
           Какая строка получится в результате применения приведённой ниже программы к строке, состоящей из 135 идущих подряд цифр 9? В ответе запишите полученную строку.`

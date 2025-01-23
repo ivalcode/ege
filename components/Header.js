@@ -10,6 +10,10 @@ let Header = {
       align-items: center;
     }
 
+    header a {
+      color: var(--text-fon);
+    }
+
     .logo {
       font-weight: 900;
       font-size: 28px;
@@ -28,10 +32,15 @@ let Header = {
   html: /*html*/ `
     <header>
       <p class="logo">ЕГЭ</p>
-      <img src="logo.svg" alt="" width="100%" height="100%">
+      <img src="/logo.svg" alt="" width="100%" height="100%">
       <nav>
         <ul>
-          <li>тема 1.1</li>
+          <li>
+            <a href="/index.html">тема 1.1</a>
+          </li>
+          <li>
+            <a href="/pages/2/index.html">тема 1.2</a>
+          </li>
         </ul>
       </nav>
     </header>

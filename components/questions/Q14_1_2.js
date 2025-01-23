@@ -1,6 +1,6 @@
 import {checkResponse} from './guestions.js'
 
-let Q12_1_1 = {
+let Q14_1_2 = {
   css: /*css*/ `
     .error, .success {
       font-size: 1rem;
@@ -41,10 +41,6 @@ let Q12_1_1 = {
   `,
   html: /*html*/ `
       <li id="{{ qid }}" class="quest__text">
-        <p>
-          Дана программа для Редактора:
-        </p>
-        <p></p>
         <p></p>
         <input type="text">
         <button class="quest__checkBtn">Проверить</button>
@@ -58,8 +54,8 @@ let Q12_1_1 = {
     },
     func: {
       checkResponse(e) {
-        checkResponse(e, components.Q12_1_1, components.Main)
-      }
+        checkResponse(e, components.Q14_1_2, components.Main2)
+      },
     },
     event: [
         {type: 'click', selector: '.quest__checkBtn', handler: 'checkResponse'}
@@ -67,4 +63,4 @@ let Q12_1_1 = {
   },
 };
 
-export default Q12_1_1
+export default Q14_1_2
