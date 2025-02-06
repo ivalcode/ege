@@ -36,14 +36,14 @@ let Header = {
   html: /*html*/ `
     <header>
       <p class="logo">ЕГЭ</p>
-      <img src="/logo.svg" alt="" width="100%" height="100%">
+      <img src="/ege/logo.svg" alt="" width="100%" height="100%">
       <nav>
         <ul>
           <li>
-            <a href="/index.html">тема 1.1</a>
+            <a href="/ege/index.html">тема 1.1</a>
           </li>
           <li>
-            <a href="/pages/2/index.html">тема 1.2</a>
+            <a href="/ege/pages/2/index.html">тема 1.2</a>
           </li>
         </ul>
       </nav>
