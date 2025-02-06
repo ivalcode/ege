@@ -25,6 +25,10 @@ let Header = {
       height: 100px;
     }
 
+    nav ul {
+      display: flex;
+    }
+
     nav li {
       list-style: none;
     }
